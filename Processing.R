@@ -3,7 +3,6 @@ library(lubridate)
 library(tidyverse)
 library(magrittr)
 library(dplyr)
-library(ggplot2)
 library(CausalImpact)
 library(GGally)
 library(skimr)
@@ -12,10 +11,12 @@ library(fpp)
 library(lattice)
 library(padr)
 library(Hmisc)
-library(corrplot)
-library(sf)
-library(logistf)
-library(ggstatsplot)
+
+
+
+
+
+
 # Read-in 2010-2019 dataset from LA Open Data API
 setwd("C:/Users/")
 
