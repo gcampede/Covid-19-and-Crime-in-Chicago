@@ -28,10 +28,10 @@ write.csv(rob_y, 'robbery1705.csv', row.names=T, col.names=T)
 ''' dataset creation for regression '''
 
 # dataset creation
-burglary1405 <- read.csv("C:/Users/Gian Maria/Desktop/coronavirus/Chicago/burglary1705.csv", header=TRUE)
-assault1405<- read.csv("C:/Users/Gian Maria/Desktop/coronavirus/Chicago/assault1705.csv", header=TRUE)
-narcotics1405 <- read.csv("C:/Users/Gian Maria/Desktop/coronavirus/Chicago/narcotics1705.csv", header=TRUE)
-robbery1405 <- read.csv("C:/Users/Gian Maria/Desktop/coronavirus/Chicago/robbery1705.csv", header=TRUE) 
+burglary1405 <- read.csv("C:/Users/dir/burglary1705.csv", header=TRUE)
+assault1405<- read.csv("C:/Users/dir/assault1705.csv", header=TRUE)
+narcotics1405 <- read.csv("C:/Users/dir/narcotics1705.csv", header=TRUE)
+robbery1405 <- read.csv("C:/Users/dir/robbery1705.csv", header=TRUE) 
 
 
 # reduction of cols
