@@ -31,7 +31,7 @@ estout m1 m2 m3 m4, eform cells(b(star fmt(3)) se(par fmt(3)))  ///
    nobase ///
    stats(N chi2 p, fmt(0 3))
 
-esttab m1 m2 m3 m4  using "C:\Users\Gian Maria\Desktop\coronavirus\Chicago\crime_models1705_2.rtf", eform cells(b(star fmt(3)) se(par fmt(3)))  ///
+esttab m1 m2 m3 m4  using "C:\dir\crime_models1705_2.rtf", eform cells(b(star fmt(3)) se(par fmt(3)))  ///
    legend label varlabels(_cons constant)           ///
    starlevels(* 0.10 ** 0.05 *** 0.01 **** 0.001) ///
    nobase ///
@@ -51,7 +51,7 @@ estout m5 m6 m7 m8, eform cells(b(star fmt(3)) se(par fmt(3)))  ///
    nobase ///
    starlevels(* 0.10 ** 0.05 *** 0.01 **** 0.001) ///
    stats(N chi2 p, fmt(0 3))
-esttab m5 m6 m7 m8  using "C:\Users\Gian Maria\Desktop\coronavirus\Chicago\social_models1705.rtf", eform cells(b(star fmt(3)) se(par fmt(3)))  ///
+esttab m5 m6 m7 m8  using "C:\dir\social_models1705.rtf", eform cells(b(star fmt(3)) se(par fmt(3)))  ///
    legend label varlabels(_cons constant)           ///
    starlevels(* 0.10 ** 0.05 *** 0.01 **** 0.001) ///
    nobase ///
@@ -73,7 +73,7 @@ estout m9 m10 m11 m12, eform cells(b(star fmt(3)) se(par fmt(3)))  ///
    starlevels(* 0.10 ** 0.05 *** 0.01 **** 0.001) ///
    stats(N chi2 p, fmt(0 3))
    
-esttab m9 m10 m11 m12  using "C:\Users\Gian Maria\Desktop\coronavirus\Chicago\health_models1705_2.rtf", eform cells(b(star fmt(3)) se(par fmt(3)))  ///
+esttab m9 m10 m11 m12  using "C:\Users\dir\health_models1705_2.rtf", eform cells(b(star fmt(3)) se(par fmt(3)))  ///
    legend label varlabels(_cons constant)           ///
    nobase ///
    starlevels(* 0.10 ** 0.05 *** 0.01 **** 0.001) ///
@@ -96,7 +96,7 @@ estout m13 m14 m15 m16, eform cells(b(star fmt(3)) se(par fmt(3)))  ///
    starlevels(* 0.10 ** 0.05 *** 0.01 **** 0.001) ///
    stat( N chi2 p, fmt(0 3))
 
-esttab m13 m14 m15 m16  using "C:\Users\Gian Maria\Desktop\coronavirus\Chicago\joint_models1705.rtf", eform cells(b(star fmt(3)) se(par fmt(3)))  ///
+esttab m13 m14 m15 m16  using "C:\Users\dir\joint_models1705.rtf", eform cells(b(star fmt(3)) se(par fmt(3)))  ///
    legend label varlabels(_cons constant)           ///
    nobase ///
    starlevels(* 0.10 ** 0.05 *** 0.01 **** 0.001) ///
