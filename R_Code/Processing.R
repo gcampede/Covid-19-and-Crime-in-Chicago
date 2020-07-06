@@ -18,7 +18,7 @@ library(Hmisc)
 
 
 # Read-in 2010-2019 dataset from LA Open Data API
-setwd("C:/Users/")
+setwd("C:/Users/dir")
 
 
 df18 <- read.socrata(
@@ -83,7 +83,7 @@ robbery_agg <- lapply(robbery_list, function(x) {aggregate(x, by=list(x$date), l
 
 
 # datelist to fill in missing values
-datelist <- read.csv("C:/Users/Gian Maria/Desktop/coronavirus/Chicago/datelist.csv", header=FALSE)
+datelist <- read.csv("C:/Users/dir/datelist.csv", header=FALSE)
 datelist<-as.POSIXct(datelist$V1, format = "%Y-%m-%d")
 date_f <- as.data.frame(datelist, stringsAsFactors=FALSE)
 names(date_f)[1] <- "Group.1"
